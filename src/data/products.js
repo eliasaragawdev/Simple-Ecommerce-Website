@@ -1,0 +1,76 @@
+export const PRODUCTS = [
+  {
+    id: 1,
+    name: 'Wireless Headphones',
+    price: 60,
+    category: 'Electronics',
+    description: 'Provide high-quality audio without tangled cables, using Bluetooth technology to pair directly with smartphones, laptops, or tablets.',
+    stock: 15,
+    image: '/images/headphones.avif',
+  },
+  {
+    id: 2,
+    name: 'Mechanical Keyboard',
+    price: 99.99,
+    category: 'Electronics',
+    description: 'It is a high-performance input device that uses individual, spring-activated switches under every key, offering superior durability, tactile feedback, and precise actuation compared to membrane keyboards.',
+    stock: 8,
+    image: '/images/keyboard.avif',
+  },
+  {
+    id: 3,
+    name: 'T-shirsts',
+    price: 15,
+    category: 'Fashion',
+    description: 'A versatile, casual garment typically made of lightweight, breathable cotton jersey, featuring short sleeves and a crew or round neckline.',
+    stock: 20,
+    image: '/images/tshirts.avif',
+  },
+  {
+    id: 4,
+    name: 'Samsung phone',
+    price: 299.99,
+    category: 'Electronics',
+    description: 'Android-powered devices known for high-quality AMOLED displays, versatile cameras, and fast performance.',
+    stock: 15,
+    image: '/images/samsung.avif',
+  },
+  {
+    id: 5,
+    name: 'Sneakers',
+    price: 19.99,
+    category: 'Fashion',
+    description: 'A flexible rubber soles, cushioned insoles, and versatile designs suitable for casual wear or athletic activities.',
+    stock: 11,
+    image: '/images/shoes.avif',
+  },
+  {
+    id: 6,
+    name: 'Ipad',
+    price: 399.99,
+    category: 'Electronics',
+    description: 'A versatile, touchscreen tablet computer developed by Apple, running on iPadOS to bridge the gap between smartphones and laptops.',
+    stock: 14,
+    image: '/images/ipad.avif',
+  },
+  {
+    id: 7,
+    name: 'Backpack',
+    price: 20,
+    category: 'Accessories',
+    description: 'A versatile, hands-free bag worn on the back with two straps, typically designed to transport goods securely.',
+    stock: 6,
+    image: '/images/backpack.avif',
+  },
+  {
+    id: 8,
+    name: "Smart Watch",
+    price: 99.99,
+    category: "Electronics",
+    description: "A wearable computing device worn on the wrist that acts as an extension of a smartphone, offering touchscreen interfaces, app support, and health monitoring sensors.",
+    stock: 7,
+    image: "/images/watch.avif"
+  }
+]
+
+export const CATEGORIES = ['All', 'Electronics', 'Fashion', 'Accessories']

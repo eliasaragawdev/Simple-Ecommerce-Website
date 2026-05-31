@@ -1,0 +1,19 @@
+Name: Elias Aragaw
+ID: XF0962
+
+How to run the project
+1. Open terminal in Ecommerce-Web
+2. Install dependencies using the command "npm install"
+3. Start the development server using the command "npm run dev"
+4. Open the local URL that appears
+
+Cachhing implementation
+This app uses a caching system to improve performance and user experience.
+Product data is stored in the browser’s localStorage, so it doesn’t have to be reloaded every time.
+It also keeps track of recent search terms by saving them in localStorage.
+The app saves selected filters in sessionStorage. This means the filters stay active while the user is browsing within the same tab, but they reset once the session ends or the tab is closed.
+
+Assumptions
+Product data is static.
+There is no backend in this project
+The browser supports features like localStorage and sessionStorage, which are used to store cached data.
